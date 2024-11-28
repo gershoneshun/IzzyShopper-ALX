@@ -1,0 +1,201 @@
+body{
+    font-family: "DM Sans", sans-serif !important;
+}
+.container-fluid img{
+    width: 180px;
+    margin-left: 20%;
+    padding-top: 5px;
+}
+
+.nav-list li{
+    display: inline;
+    margin-right: 15px;
+}
+.nav-list a{
+    text-decoration: none !important;
+    color: #02183B;
+}
+
+.account-list li{
+display: inline;
+margin-right: 15px;
+}
+.account-list a{
+    text-decoration: none !important;
+    color: #02183B;
+}
+.account-list button{
+    background-color: #239b5d;
+    border-color: #239b5d;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 10px;
+}
+.account-list button:hover{
+    background-color: #239b5d;
+    border-color: #239b5d;
+}
+
+.banner{
+    background: linear-gradient(to left, #ffffff, #999999);
+    position: relative;
+    padding-bottom:2%;
+}
+.banner h1{
+    text-align: center;
+    padding-top:15%;
+    color: #023078;
+    font-size: 50px;
+    font-weight: 600;
+}
+.banner p{
+    font-size:15px;
+    text-align: center;
+    color: #878484;
+}
+.banner button{
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   background-color: #239b5d;
+   border: #239b5d;
+   width: 140px;
+   height: 4vh;
+   border-radius: 10px;
+   font-weight: bold;
+}
+.banner button:hover{
+    background-color: #239b5d;
+    border: #239b5d;
+}
+.banner img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+}
+.content{
+    display: flex;
+}
+.about-us{
+    margin-left: 20%;
+    margin-top:5%;
+    flex-direction: column;
+}
+.about-us h3{
+    color: #02183B;
+}
+.about-us p{
+    padding-right: 40%;  
+    flex-direction: column;
+}
+.sdg{
+    margin-right: 20%;
+    padding-top: 6%;
+}
+.sdg img{
+    width: 600px;
+    animation: spin 18s linear infinite; /* Apply the animation */
+}
+@keyframes spin {
+    0% {
+      transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    100% {
+      transform: rotate(360deg); /* End at 360 degrees (one full rotation) */
+    }
+  }
+.our-values{
+    margin-top: 10%;
+    background-color: #02183B;
+    height:40vh;
+}
+.our-values h3{
+    text-align: center;
+    color: #ffffff;
+    padding-top: 10px;
+    margin-top: 0;
+}
+.value-cards{
+    margin-left: 10%;
+    margin-right: 10%;
+  
+}
+.uk-card-body p{
+   color: #ffffff;
+   text-align: center;
+}
+.uk-card-body img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    display: block;
+}
+.how-to-order img{
+    width: 600px;
+    margin-top: 10%;
+}
+#steps{
+    margin-left: 17%;
+}
+#subject{
+    width: 400px;
+    margin-left: 20%;
+}
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+   
+    background-color: #FAFAFA;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom:2%;
+    max-width: 650px;
+    border-radius: 30px;
+}
+.wrapper h3{
+    text-align: center;
+    font-weight:500;
+    color: #023078;
+    padding-top: 25px;
+}
+.call-us{
+    text-align: center;
+}
+.call-us h5{
+   line-height:0.1;
+   color: #878484;
+}
+.call-us a{
+    color: #02183B;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+.call-us a:hover{
+    color: inherit;
+}
+.email-us{
+    text-align: center;
+}
+.email-us h5{
+    padding-top: 40px;
+    color: #878484;
+    line-height: 0.1;
+}
+.email-us a{
+    color: #02183B;
+    font-weight: bold;
+    margin-top: 0;
+}
+footer{
+    background-color: #F6F5FF;
+    padding-bottom:5px;
+    margin-top: 10%;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+   padding-top: 30px;
+   color: #02183B;
+}
